@@ -1,0 +1,43 @@
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+button:focus {
+    outline: 0;
+}
+button:active {
+    background-color: darkolivegreen;
+}
+html, body{
+    margin: 0; padding: 0;
+    text-align: center;
+    font-size: 5vh;
+    background-color: lightgray;
+    font-family: sans-serif;
+}
+header{
+    background-color: black;
+    margin: 0;
+    color: white;
+}
+header > h1 {
+    margin: 0; padding: 0;
+    font-size: 2rem;
+}
+
+main > p {
+    margin: 0; padding: 5vh;
+}
+#p_btn{
+    background-color: lightgray;
+}
+#p_img{
+    background-color: white;
+}
+#diceimage{
+    height: 50vmin;
+    width: auto;
+}
